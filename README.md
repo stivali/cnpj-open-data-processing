@@ -52,7 +52,7 @@ The example configuration is for the **November 2026 (`2026-11`)** data release.
 Install the relevant packages in R if needed:
 
 ```r
-install.packages(c("vroom", "tidyverse", "arrow", "haven", "foreign"))
+install.packages(c("vroom", "tidyverse", "arrow", "haven"))
 ```
 
 ## Setup and execution

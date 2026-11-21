@@ -1,0 +1,54 @@
+# CNPJ source data and generated datasets
+*.zip
+*.parquet
+*.dta
+*.csv
+*.tsv
+*.rds
+*.RDS
+*.rda
+*.rdata
+*.RData
+*.fst
+*.feather
+*.arrow
+
+# Common local dataset/output folders (if created inside the repository)
+/data/
+/zip/
+/parquet/
+/stata/
+/output/
+/outputs/
+/raw/
+/raw_data/
+/processed/
+/temp/
+/tmp/
+
+# R and RStudio session files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+.Rprofile.local
+
+# R temporary/editor files
+.Rcheck/
+.Rproj.user/
+*.Rproj.user
+*~
+*.bak
+*.swp
+*.swo
+
+# Windows, macOS, and editor files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Source documentation in docs/ (including cnpj-metadados.pdf) is intentionally tracked.
+# Do not ignore *.pdf globally.
