@@ -44,7 +44,7 @@ The example configuration is for the **November 2026 (`2026-11`)** data release.
 
 ## Requirements
 
-- R with the packages **`vroom`**, **`tidyverse`**, **`arrow`**, and **`haven`**. The current script also loads `foreign` in its initialization, although its Stata export uses `haven`.
+- R with the packages **`vroom`**, **`tidyverse`**, **`arrow`**, and **`haven`**.
 - Enough free disk space for the downloaded ZIP files, temporary extracted data, and outputs.
 - Enough RAM to process each ZIP and, if Stata export is enabled, to load each individual Parquet file into memory.
 - A suitable local filesystem. The example paths and temporary-file utility are intended for **Windows**.
