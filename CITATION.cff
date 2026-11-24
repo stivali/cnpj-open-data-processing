@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these scripts in your research or data pipeline, please cite this repository as below."
+type: software
+title: "Processing Brazil's Public CNPJ Data in R"
+authors:
+  - family-names: "Stivali"
+    given-names: "Matheus"
+    orcid: "https://orcid.org/0000-0002-7757-6433"
+  - family-names: "Rocha"
+    given-names: "Yohan"
+repository-code: "https://github.com/stivali/cnpj-open-data-processing"
+url: "https://github.com/stivali/cnpj-open-data-processing"
+abstract: "R scripts for converting publicly available CNPJ records released by the Brazilian Federal Revenue Service into Apache Parquet format, with optional export to Stata (.dta)."
+keywords:
+  - "CNPJ"
+  - "Brazil"
+  - "administrative data"
+  - "R"
+  - "Parquet"
+  - "data processing"
+license: MIT
+version: "1.1.0"
+date-released: "2026-11-21"
